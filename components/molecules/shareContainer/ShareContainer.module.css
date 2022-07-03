@@ -1,0 +1,9 @@
+.ShareContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ShareContainer svg {
+  height: 24px;
+  width: 24px;
+}

@@ -1,0 +1,7 @@
+.paginationSelected {
+  box-sizing: content-box;
+  color: black;
+  border-bottom: 2px solid black;
+  background-color: initial;
+  min-width: 22px;
+}

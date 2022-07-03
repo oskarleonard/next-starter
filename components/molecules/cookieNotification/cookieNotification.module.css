@@ -1,0 +1,22 @@
+.cookieNotification {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.33) 0 5px 33px;
+
+  transform: translateY(100%);
+  transition-property: transform;
+}
+
+.slideUp {
+  transform: translateY(0%);
+}
+
+.btn {
+  white-space: nowrap;
+}

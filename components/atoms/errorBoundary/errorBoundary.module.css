@@ -1,0 +1,28 @@
+.boundary {
+  display: flex;
+  width: 100%;
+  background: url('#{$cdn-url-images}/404-background.jpg')
+    no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content {
+  z-index: 1;
+  margin: auto;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 520px;
+  padding: 16px;
+}
+
+.boundary:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.34);
+ }

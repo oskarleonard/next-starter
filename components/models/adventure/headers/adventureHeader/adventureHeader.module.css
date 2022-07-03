@@ -1,0 +1,8 @@
+.AdventureHeader {
+  height: 70vh;
+  position: relative;
+}
+
+.AdventureHeader .contentContainer {
+  top: 58vh;
+}
